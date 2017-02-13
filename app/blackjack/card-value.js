@@ -10,4 +10,8 @@ export default function (value) {
       return 10;
       break;
   }
+
+  if (value === 'ace') {
+    return 11;
+  }
 }
